@@ -35,451 +35,397 @@
     </div>
   </div>
 
-  <!--Start first row of cards-->
-  <div class="row">
+  <!--Start of cards-->
+  <div class="card-columns">
 
-    <!--Cut from here-->
-    <div class="col-md-3">
-      <!-- Card -->
-      <div class="card shadow border border-secondary text-center mt-3">
-        <div class="card">
-          <div class="card-header bg-warning">
-            Most recent poem
-          </div>
-          <img class="card-img-top mt-3 px-2" src="img/crippledinspirit.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title d-flex justify-content-center">Crippled in Spirit</h4>
-
-            <!-- Button trigger modal -->
-            <div class="pt-2">
-              <button type="button" class="btn btn-success align-items-center px-4" data-toggle="modal" data-target="#crippled-in-spirit">Read
-              </button>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="crippled-in-spirit" tabindex="-1" role="dialog" aria-labelledby="crippledInSpiritTitle"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-align-center" id="crippledInSpiritTitle">Crippled in Spirit</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-left">It was two hours before sky-dark<br />
-                      When the badger was defeated,<br />
-                      Crippled in spirit,<br />
-                      Awkwardly bruised from the imperial battle,<br />
-                      Humbled by the more capable creature<br />
-                      Hell-bent on shaping the mountain<br />
-                      In the image of its rage.<br />
-                      A bird, soaring kingly in the ocean-gray sky,<br />
-                      Observed the badger’s thrashing<br />
-                      Through the autumn evening rain haze,<br />
-                      Predicting the astringent badger would become<br />
-                      Disloyal in character, acidic, unwell.<br />
-                      In time, sadly, the badger proved the bird true,<br />
-                      Plotting with a doltish, clumsy raven<br />
-                      The humiliated badger prepared an attack<br />
-                      To malign the bird’s account of the beating.<br />
-                      Unbeknownst to the badger the spying eyes<br />
-                      Of an eagle from afar also bore witness,<br />
-                      Saving the bird from unholy disparage<br />
-                      Claimed by the deficient duo.<br />
-                      Sullen, the badger went back to its hole in the ground,<br />
-                      The dimwitted raven knew not what to think.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                      target="_blank" role="button">Donate
-                      <i class="fab fa-bitcoin"></i></a>
-                  </div>
-                  <div class="row d-flex justify-content-end mr-3 mb-2">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                        name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                  </div>
-                </div>
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <div class="card-header bg-warning text-center new-poem">
+        <span>Most recent poem</span>
+      </div>
+      <img class="card-img-top mt-3 px-2" src="img/crippledinspirit.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">Crippled in Spirit</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#crippled-in-spirit">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="crippled-in-spirit" tabindex="-1" role="dialog" aria-labelledby="crippledInSpiritTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="crippledInSpiritTitle">Crippled in Spirit</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">It was two hours before sky-dark<br />
+                  When the badger was defeated,<br />
+                  Crippled in spirit,<br />
+                  Awkwardly bruised from the imperial battle,<br />
+                  Humbled by the more capable creature<br />
+                  Hell-bent on shaping the mountain<br />
+                  In the image of its rage.<br />
+                  A bird, soaring kingly in the ocean-gray sky,<br />
+                  Observed the badger’s thrashing<br />
+                  Through the autumn evening rain haze,<br />
+                  Predicting the astringent badger would become<br />
+                  Disloyal in character, acidic, unwell.<br />
+                  In time, sadly, the badger proved the bird true,<br />
+                  Plotting with a doltish, clumsy raven<br />
+                  The humiliated badger prepared an attack<br />
+                  To malign the bird’s account of the beating.<br />
+                  Unbeknownst to the badger the spying eyes<br />
+                  Of an eagle from afar also bore witness,<br />
+                  Saving the bird from unholy disparage<br />
+                  Claimed by the deficient duo.<br />
+                  Sullen, the badger went back to its hole in the ground,<br />
+                  The dimwitted raven knew not what to think.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--End card-->
 
-    <!--Cut from here-->
-    <div class="col-md-3">
-      <!-- Card -->
-      <div class="card shadow border border-secondary text-center mt-3">
-        <div class="card">
-          <img class="card-img-top mt-3 px-2" src="img/primordialroutine.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title d-flex justify-content-center">Primordial Routine</h4>
-
-            <!-- Button trigger modal -->
-            <div class="pt-2">
-              <button type="button" class="btn btn-success align-items-center px-4" data-toggle="modal" data-target="#primordial-routine">Read
-              </button>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Primordial Routine</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-left">The fire light of desert sunrise,<br />
-                      Lambent on the proud east walls of Red Rock Canyon,<br />
-                      Repeats its primordial routine, dancing<br />
-                      Over Spanish tiled roofs, palm trees, cactus.<br />
-                      Oh, day— you are a peculiar stage—<br />
-                      And I the lucky one<br />
-                      To witness on a simple morning<br />
-                      A quiet sunrise, and<br />
-                      The ancient sky now peopled with airplanes<br />
-                      Jetting triangle dreams that fade colors to blue.<br />
-                      For a period of time<br />
-                      When the sun is narrowly above the horizon<br />
-                      The city between us disappears<br />
-                      From the overpowering brightness of our star, yet<br />
-                      Against all probability<br />
-                      I am here.<br />
-                      Today, anew.<br />
-                      In this grand opera of sunlight<br />
-                      And theater.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                      target="_blank" role="button">Donate
-                      <i class="fab fa-bitcoin"></i></a>
-                  </div>
-                  <div class="row d-flex justify-content-end mr-3 mb-2">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                        name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                  </div>
-                </div>
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <img class="card-img-top mt-3 px-2" src="img/primordialroutine.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">Primordial Routine</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#primordial-routine">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Primordial Routine</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">The fire light of desert sunrise,<br />
+                  Lambent on the proud east walls of Red Rock Canyon,<br />
+                  Repeats its primordial routine, dancing<br />
+                  Over Spanish tiled roofs, palm trees, cactus.<br />
+                  Oh, day— you are a peculiar stage—<br />
+                  And I the lucky one<br />
+                  To witness on a simple morning<br />
+                  A quiet sunrise, and<br />
+                  The ancient sky now peopled with airplanes<br />
+                  Jetting triangle dreams that fade colors to blue.<br />
+                  For a period of time<br />
+                  When the sun is narrowly above the horizon<br />
+                  The city between us disappears<br />
+                  From the overpowering brightness of our star, yet<br />
+                  Against all probability<br />
+                  I am here.<br />
+                  Today, anew.<br />
+                  In this grand opera of sunlight<br />
+                  And theater.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--End card-->
 
-    <!--Cut from here-->
-    <div class="col-md-3">
-      <!-- Card -->
-      <div class="card shadow border border-secondary text-center mt-3">
-        <div class="card">
-          <img class="card-img-top mt-3 px-2" src="img/abeautifullife.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title d-flex justify-content-center">A Beautiful Life</h4>
-
-            <!-- Button trigger modal -->
-            <div class="pt-2">
-              <button type="button" class="btn btn-success align-items-center px-4" data-toggle="modal" data-target="#primordial-routine">Read
-              </button>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-align-center" id="primordialRoutineTitle">A Beautiful Life</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-left">Maria Flores knew only a beautiful life,<br />
-                      The flowered walls of her father’s Mexico estate<br />
-                      Sheltered her from the pallid faces and<br />
-                      Barrio clutter scattered about the village.<br />
-                      Maria knew the sweet taste of fresh cornbread<br />
-                      Peppered with green chiles grown in her garden;<br />
-                      She knew her papa’s laugh, his smile, his kind voice.<br />
-                      Maria knew many nice things, and such is a<br />
-                      Lucky childhood, to be the recipient<br />
-                      Of a great effort to protect innocence, her<br />
-                      Father’s aim to barricade her from incivility, and<br />
-                      Foster an environment of creativity and love.<br />
-                      Still, the world has a way of falling apart, if only<br />
-                      To be reborn with new vigor.<br />
-                      The entire village was stunned by the accusation,<br />
-                      Assuredly false, that Maria’s father was guilty, then<br />
-                      Sentenced to be hanged.<br />
-                      The tears flowed as though Thales of Miletus<br />
-                      Found the source of his watery archê in Maria.<br />
-                      Her papa was gone.<br />
-                      Her happy childhood abruptly ended. Yet,<br />
-                      Maria’s newly ashen heart was determined<br />
-                      To beat vibrant-red again someday.<br />
-                      She would live to make her papa proud, for<br />
-                      He taught her—<br />
-                      A beautiful life is a choice.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                      target="_blank" role="button">Donate
-                      <i class="fab fa-bitcoin"></i></a>
-                  </div>
-                  <div class="row d-flex justify-content-end mr-3 mb-2">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                        name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                  </div>
-                </div>
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <img class="card-img-top mt-3 px-2" src="img/abeautifullife.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">A Beautiful Life</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#primordial-routine">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="primordialRoutineTitle">A Beautiful Life</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">Maria Flores knew only a beautiful life,<br />
+                  The flowered walls of her father’s Mexico estate<br />
+                  Sheltered her from the pallid faces and<br />
+                  Barrio clutter scattered about the village.<br />
+                  Maria knew the sweet taste of fresh cornbread<br />
+                  Peppered with green chiles grown in her garden;<br />
+                  She knew her papa’s laugh, his smile, his kind voice.<br />
+                  Maria knew many nice things, and such is a<br />
+                  Lucky childhood, to be the recipient<br />
+                  Of a great effort to protect innocence, her<br />
+                  Father’s aim to barricade her from incivility, and<br />
+                  Foster an environment of creativity and love.<br />
+                  Still, the world has a way of falling apart, if only<br />
+                  To be reborn with new vigor.<br />
+                  The entire village was stunned by the accusation,<br />
+                  Assuredly false, that Maria’s father was guilty, then<br />
+                  Sentenced to be hanged.<br />
+                  The tears flowed as though Thales of Miletus<br />
+                  Found the source of his watery archê in Maria.<br />
+                  Her papa was gone.<br />
+                  Her happy childhood abruptly ended. Yet,<br />
+                  Maria’s newly ashen heart was determined<br />
+                  To beat vibrant-red again someday.<br />
+                  She would live to make her papa proud, for<br />
+                  He taught her—<br />
+                  A beautiful life is a choice.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--End card-->
 
-    <!--Cut from here-->
-    <div class="col-md-3">
-      <!-- Card -->
-      <div class="card shadow border border-secondary text-center mt-3">
-        <div class="card">
-          <img class="card-img-top mt-3 px-2" src="img/questiontime.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title d-flex justify-content-center">Question Time</h4>
-
-            <!-- Button trigger modal -->
-            <div class="pt-2">
-              <button type="button" class="btn btn-success align-items-center px-4" data-toggle="modal" data-target="#primordial-routine">Read
-              </button>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Question Time</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-left">He walks slowly along the Socratic forest trail<br />
-                      Happily enjoying several steps without pain,<br />
-                      The ritual of ontological contemplation<br />
-                      Coloring nature green, as the<br />
-                      First autumn yellow leaves question time.<br />
-                      Amid the placid freedom is awareness<br />
-                      Of the river song shaping the rocks, but also<br />
-                      Acknowledgement of the dark empire’s evil energy<br />
-                      Dropping bombs on innocent children for profit.<br />
-                      How unjust is this paradise offering moments of<br />
-                      Windless warmth from our benevolent star, while<br />
-                      Terrorizing untold peoples for differing politics?<br />
-                      Maybe injustice cannot be banished, but<br />
-                      Indifference to unnecessary suffering allows<br />
-                      Those that control the money supply<br />
-                      To continue their unconscionable experiments.<br />
-                      Decentralize money for more fairness.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                      target="_blank" role="button">Donate
-                      <i class="fab fa-bitcoin"></i></a>
-                  </div>
-                  <div class="row d-flex justify-content-end mr-3 mb-2">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                        name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                  </div>
-                </div>
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <img class="card-img-top mt-3 px-2" src="img/questiontime.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">Question Time</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#primordial-routine">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Question Time</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">He walks slowly along the Socratic forest trail<br />
+                  Happily enjoying several steps without pain,<br />
+                  The ritual of ontological contemplation<br />
+                  Coloring nature green, as the<br />
+                  First autumn yellow leaves question time.<br />
+                  Amid the placid freedom is awareness<br />
+                  Of the river song shaping the rocks, but also<br />
+                  Acknowledgement of the dark empire’s evil energy<br />
+                  Dropping bombs on innocent children for profit.<br />
+                  How unjust is this paradise offering moments of<br />
+                  Windless warmth from our benevolent star, while<br />
+                  Terrorizing untold peoples for differing politics?<br />
+                  Maybe injustice cannot be banished, but<br />
+                  Indifference to unnecessary suffering allows<br />
+                  Those that control the money supply<br />
+                  To continue their unconscionable experiments.<br />
+                  Decentralize money for more fairness.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--End card-->
 
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <img class="card-img-top mt-3 px-2" src="img/flaubertianstruggle.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">Flaubertian Struggle</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#primordial-routine">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Flaubertian Struggle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">Our time here is so tender, yet cruel, a type of<br />
+                  Flaubertian struggle to be sure. For the<br />
+                  Same riverbank water blessing the tree<br />
+                  Undercuts its roots flowing round the bend,<br />
+                  Precipitating an overearly death, as the tree<br />
+                  Falls in slow motion<br />
+                  Toward that which giveth and taketh away,<br />
+                  Its life source, and saboteur.<br />
+                  Knowing intensifies the grief.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <img class="card-img-top mt-3 px-2" src="img/socialamnesia.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">Social Amnesia</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#primordial-routine">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Social Amnesia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">The desert knows it to be true<br />
+                  That we’re much older<br />
+                  Than our memories permit us to be, that<br />
+                  Wind lifts birds free from the tree, and<br />
+                  Rapids make storied kayak streams.<br />
+                  What if our nature was peaceful, serene?<br />
+                  Hiking over cactus<br />
+                  Hiking, hiking over cactus, over cactus.<br />
+                  The human story is perhaps incomplete,<br />
+                  Maybe there existed more beautiful people<br />
+                  Smiling and praying in families of antiquity<br />
+                  Than science asks us to believe,<br />
+                  Ravens scream murderous themes.<br />
+                  Take every chance for love dear flower<br />
+                  Stand tall and be brave in all weather, for a<br />
+                  Taurid meteor might cause social amnesia,<br />
+                  Tomorrow's unimaginable loss of our<br />
+                  Triumphs, miseries, collective history,<br />
+                  As those that happened before us<br />
+                  Evanescent in the ether between stars.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Card-columns div below-->
   </div>
-  <!--End first row of cards-->
-
-  <!--Start second row of cards-->
-  <div class="row">
-
-    <!--Cut from here-->
-    <div class="col-md-3">
-      <!-- Card -->
-      <div class="card shadow border border-secondary text-center mt-3">
-        <div class="card">
-          <img class="card-img-top mt-3 px-2" src="img/flaubertianstruggle.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title d-flex justify-content-center">Flaubertian Struggle</h4>
-
-            <!-- Button trigger modal -->
-            <div class="pt-2">
-              <button type="button" class="btn btn-success align-items-center px-4" data-toggle="modal" data-target="#primordial-routine">Read
-              </button>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Flaubertian Struggle</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-left">Our time here is so tender, yet cruel, a type of<br />
-                      Flaubertian struggle to be sure. For the<br />
-                      Same riverbank water blessing the tree<br />
-                      Undercuts its roots flowing round the bend,<br />
-                      Precipitating an overearly death, as the tree<br />
-                      Falls in slow motion<br />
-                      Toward that which giveth and taketh away,<br />
-                      Its life source, and saboteur.<br />
-                      Knowing intensifies the grief.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                      target="_blank" role="button">Donate
-                      <i class="fab fa-bitcoin"></i></a>
-                  </div>
-                  <div class="row d-flex justify-content-end mr-3 mb-2">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                        name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--End card-->
-
-    <!--Cut from here-->
-    <div class="col-md-3">
-      <!-- Card -->
-      <div class="card shadow border border-secondary text-center mt-3">
-        <div class="card">
-          <img class="card-img-top mt-3 px-2" src="img/socialamnesia.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title d-flex justify-content-center">Social Amnesia</h4>
-
-            <!-- Button trigger modal -->
-            <div class="pt-2">
-              <button type="button" class="btn btn-success align-items-center px-4" data-toggle="modal" data-target="#primordial-routine">Read
-              </button>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Social Amnesia</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-left">The desert knows it to be true<br />
-                      That we’re much older<br />
-                      Than our memories permit us to be, that<br />
-                      Wind lifts birds free from the tree, and<br />
-                      Rapids make storied kayak streams.<br />
-                      What if our nature was peaceful, serene?<br />
-                      Hiking over cactus<br />
-                      Hiking, hiking over cactus, over cactus.<br />
-                      The human story is perhaps incomplete,<br />
-                      Maybe there existed more beautiful people<br />
-                      Smiling and praying in families of antiquity<br />
-                      Than science asks us to believe,<br />
-                      Ravens scream murderous themes.<br />
-                      Take every chance for love dear flower<br />
-                      Stand tall and be brave in all weather, for a<br />
-                      Taurid meteor might cause social amnesia,<br />
-                      Tomorrow's unimaginable loss of our<br />
-                      Triumphs, miseries, collective history,<br />
-                      As those that happened before us<br />
-                      Evanescent in the ether between stars.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
-                      target="_blank" role="button">Donate
-                      <i class="fab fa-bitcoin"></i></a>
-                  </div>
-                  <div class="row d-flex justify-content-end mr-3 mb-2">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
-                        name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--End card-->
-
-  </div>
-  <!--End second row cards-->
 
   <footer>
     <div class="row bg-dark py-3 mt-5">
@@ -505,7 +451,7 @@
       duration: 2000,
       origin: 'right',
       distance: '300px',
-      delay: 500
+      delay: 300
     });
   </script>
 </body>
