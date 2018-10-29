@@ -37,6 +37,7 @@ body {
 @media (max-width:700px) {
 
   body {
+    font-family: 'Cardo', sans-serif !important;
     overflow-x: hidden !important;
   }
 
@@ -46,12 +47,12 @@ body {
   }
 
   .sub-title {
-    margin: -5px 0px 3px 10px !important;
-    font-size: 1.0rem;
+    margin: 0px 0px 3px 10px !important;
+    font-size: 0.8rem;
   }
 
   .parrallax-img {
-    height: 250px;
+    display: none !important;
   }
 
   p {
