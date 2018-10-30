@@ -56,6 +56,11 @@ h5 {
   font-weight: 600;
 }
 
+input {
+  width: 76% !important;
+  margin-top: 0.3rem;
+}
+
 .footer-icons {
   color: white;
 }
@@ -105,14 +110,8 @@ h5 {
     font-size: 0.6rem;
   }
 
-  input,
-  form {
-    width: 80% !important;
-    margin-top: 0.3rem;
-  }
-
   .footer-icons {
-    size: 50% !important;
+    size: 40% !important;
   }
 
 }
