@@ -28,11 +28,6 @@ body {
   background-attachment: fixed;
 }
 
-.about {
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-
 .about-box {
   border-radius: 15px;
 }
@@ -46,18 +41,18 @@ body {
 }
 
 .btn,
-.placeholder-for-ad,
 .copyright,
-.new-poem {
+.new-poem,
+.about {
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .card-columns {
   column-count: 5;
 }
 
-h5,
-p {
+h5 {
   font-weight: 600;
 }
 
@@ -83,6 +78,11 @@ p {
     font-size: 0.8rem;
   }
 
+  /*
+  .fb-share-button {
+    margin-top: -3.2rem !important;
+  }  */
+
   .parrallax-img {
     display: none !important;
   }
@@ -105,8 +105,12 @@ p {
     font-size: 0.6rem;
   }
 
+  input,
   form {
-    margin-top: 20px;
+    height: 90% !important;
+    width: 75% !important;
+    margin-top: 0.3rem;
+    //margin-right: -2.2rem;
   }
 
   .footer-icons {

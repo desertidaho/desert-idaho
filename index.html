@@ -14,6 +14,19 @@
     crossorigin="anonymous">
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  <meta property="og:url" content="https://desertidaho.github.io/desert-idaho/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Desert Idaho" />
+  <meta property="og:description" content="Poems Inspired by Nature and Philosophy" />
+  <meta property="og:image" content="https://desertidaho.github.io/desert-idaho/img/snakeriver.jpg" />
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 </head>
 
 <body class="container-fluid">
@@ -21,7 +34,10 @@
   <header>
     <div class="row sticky-top bg-transparent">
       <h1 class="col-md-3 title ml-5 mt-3">Desert Idaho</h1>
-      <span class="col sub-title mt-4 pt-1 pb-4">Poems Inspired by Nature and Philosophy</span>
+      <p class="col sub-title mt-4 pt-1 pb-4">Poems Inspired by Nature and Philosophy</p>
+      <!-- <div class="fb-share-button pt-4 pr-3" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+        data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+          class="fb-xfbml-parse-ignore">Share</a></div> -->
     </div>
     <div class="row">
       <div class="col parrallax-img">
@@ -32,7 +48,7 @@
   <div class="row my-4">
     <div class="col-md-8 offset-2 bg-secondary about-box">
       <img class="my-pic" src="img/brettwilcox.jpg" alt="Brett Wilcox picture">
-      <p class="about text-white px-3 pt-3">Hi, I'm Brett Wilcox, thanks for
+      <p class="about text-white px-2 pt-3">Hi, I'm Brett Wilcox, thanks for
         reading my poetry. I write to create the
         desert
         winds so that I can breathe. I'm
@@ -101,8 +117,6 @@
                 <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
                   target="_blank" role="button">Donate
                   <i class="fab fa-bitcoin"></i></a>
-              </div>
-              <div class="row d-flex justify-content-end mr-3 mb-2">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
@@ -504,8 +518,8 @@
         <a href="https://twitter.com/DesertIdaho" target="_blank"><i class="fab fa-twitter fa-5x footer-icons ml-5"></i></a>
       </div>
       <div class="col d-flex justify-content-center bg-dark pt-5">
-        <span class="text-white copyright">&copy 2018 Brett Wilcox All rights
-          Reserved</span>
+        <p class="text-white copyright">&copy 2018 Brett Wilcox All rights
+          Reserved</p>
       </div>
     </div>
   </footer>
@@ -521,7 +535,7 @@
       duration: 2000,
       origin: 'right',
       distance: '300px',
-      delay: 800
+      delay: 1000
     });
   </script>
 </body>
