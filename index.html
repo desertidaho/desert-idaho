@@ -21,7 +21,7 @@
   <header>
     <div class="row sticky-top bg-transparent">
       <h1 class="col-md-3 title ml-5 mt-3">Desert Idaho</h1>
-      <span class="col sub-title mt-4 pt-1 pb-2">Poems Inspired by Nature and Philosophy</span>
+      <span class="col sub-title mt-4 pt-1 pb-4">Poems Inspired by Nature and Philosophy</span>
     </div>
     <div class="row">
       <div class="col parrallax-img">
@@ -29,9 +29,16 @@
     </div>
   </header>
 
-  <div class="row my-4 placeholder-for-ad">
-    <div class="col-md-8 offset-md-2 align-items-center bg-danger text-white">
-      <p class="text-center pt-3">Ad will go here</p>
+  <div class="row my-4">
+    <div class="col-md-8 offset-2 bg-secondary about-box">
+      <img class="my-pic" src="img/brettwilcox.jpg" alt="Brett Wilcox picture">
+      <p class="about text-white px-3 pt-3">Hi, I'm Brett Wilcox, thanks for
+        reading my poetry. I write to create the
+        desert
+        winds so that I can breathe. I'm
+        influenced by many great writers like Jorge Luis Borges, who wrote "With slow love she looked at the scattered
+        colors
+        of afternoon. It pleased her to lose herself in intricate melody or in the curious life of verses."</p>
     </div>
   </div>
 
@@ -40,9 +47,11 @@
 
     <!-- Card -->
     <div class="card border-secondary shadow">
+      <!--Cut here for "Most recent poem" header-->
       <div class="card-header bg-warning text-center new-poem">
         <span>Most recent poem</span>
       </div>
+      <!--Cut above here for "Most recent poem" header-->
       <img class="card-img-top mt-3 px-2" src="img/crippledinspirit.jpg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title d-flex justify-content-center">Crippled in Spirit</h4>
@@ -424,7 +433,68 @@
       </div>
     </div>
 
-    <!--Card-columns div below-->
+    <!-- Card -->
+    <div class="card border-secondary shadow">
+      <img class="card-img-top mt-3 px-2" src="img/pastpresent.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-center">Past Present</h4>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center pt-2">
+          <button type="button" class="btn btn-success px-4" data-toggle="modal" data-target="#primordial-routine">Read
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="primordial-routine" tabindex="-1" role="dialog" aria-labelledby="primordialRoutineTitle"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-align-center" id="primordialRoutineTitle">Past Present</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="text-left">With grand uncertainty, and<br />
+                  A tender heart, I plead with<br />
+                  The spinning of our worlds.<br />
+                  Waves and cirrostratus<br />
+                  Tell different stories<br />
+                  Of the same blue sky,<br />
+                  Changing each breath, and<br />
+                  Minds racing when we see each-other,<br />
+                  Past present, like the wind.<br />
+                  There will always be you<br />
+                  And the flowers, and<br />
+                  The day you never knew about<br />
+                  That I want so badly to share, for<br />
+                  You are on high in my mind.<br />
+                  From a place of deep caring,<br />
+                  Desert and the sun.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://commerce.coinbase.com/checkout/14e93c6a-bdd0-4eff-befb-8a869b2d26bf"
+                  target="_blank" role="button">Donate
+                  <i class="fab fa-bitcoin"></i></a>
+              </div>
+              <div class="row d-flex justify-content-end mr-3 mb-2">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="G6TKWMTHUUZZ2">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                    name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Card-columns closing div below-->
   </div>
 
   <footer>
@@ -434,8 +504,8 @@
         <a href="https://twitter.com/DesertIdaho" target="_blank"><i class="fab fa-twitter fa-5x footer-icons ml-5"></i></a>
       </div>
       <div class="col d-flex justify-content-center bg-dark pt-5">
-        <p class="text-white copyright">&copy 2018 Brett Wilcox All rights
-          Reserved</p>
+        <span class="text-white copyright">&copy 2018 Brett Wilcox All rights
+          Reserved</span>
       </div>
     </div>
   </footer>
