@@ -839,6 +839,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
+  <!--Sub-title scroll from right-->
   <script>
     window.sr = ScrollReveal();
     sr.reveal('.sub-title', {
@@ -848,6 +849,8 @@
       delay: 700
     });
   </script>
+
+  <!--Up arrow scroll bottom of page-->
   <script>
     function upArrow() {
       let chain = document.getElementById('arrow');
@@ -862,6 +865,25 @@
 
     // Animate Every 2 Seconds
     setInterval(upArrow, 2000);
+  </script>
+
+  <!--Smooth scrolling for arrow to top of page-->
+  <script>
+    $(function () {
+      $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname ==
+          this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 2500);
+            return false;
+          }
+        }
+      });
+    });
   </script>
 
 </body>
