@@ -67,6 +67,12 @@ input {
   color: white;
 }
 
+#arrow {
+  font-size: 3rem;
+  color: black;
+  text-decoration: none;
+}
+
 
 @media (max-width: 950px) and (min-width: 750px) {
 

@@ -29,12 +29,13 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script> -->
 </head>
+<a name="top"></a>
 
 <body class="container-fluid">
 
   <header>
     <div class="row sticky-top bg-transparent">
-      <h1 class="col-md-3 title ml-5 mt-3">Desert Idaho</h1>
+      <h1 id="title" class="col-md-3 title ml-5 mt-3">Desert Idaho</h1>
       <p class="col sub-title mt-4 pt-1 pb-4">Poems Inspired by Nature and Philosophy</p>
       <!--Facebook share button <div class="fb-share-button pt-4 pr-3" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
         data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
@@ -816,8 +817,13 @@
     <!--Card-columns closing div below-->
   </div>
 
+  <!--Up arrow-->
+  <div class="col-sm-12 d-flex justify-content-center pt-5">
+    <a href="#top" id="arrow" class="fa"></a>
+  </div>
+
   <footer>
-    <div class="row bg-dark py-3 mt-5">
+    <div class="row bg-dark py-3 mt-4">
       <div class="col-sm-12 d-flex align-items-center justify-content-center pt-4">
         <a href="https://www.facebook.com/wilcox.brett" target="_blank"><i class="fab fa-facebook fa-5x footer-icons mr-5"></i></a>
         <a href="https://twitter.com/DesertIdaho" target="_blank"><i class="fab fa-twitter fa-5x footer-icons ml-5"></i></a>
@@ -829,11 +835,10 @@
     </div>
   </footer>
 
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <script src="style.css"></script>
+  <script src="script.js"></script>
   <script>
     window.sr = ScrollReveal();
     sr.reveal('.sub-title', {
@@ -843,6 +848,22 @@
       delay: 700
     });
   </script>
+  <script>
+    function upArrow() {
+      let chain = document.getElementById('arrow');
+      chain.innerHTML = "&#xf102;";
+
+      setTimeout(function () {
+        chain.innerHTML = "&#xf106;";
+      }, 1000);
+    }
+
+    upArrow();
+
+    // Animate Every 2 Seconds
+    setInterval(upArrow, 2000);
+  </script>
+
 </body>
 
 </html>
