@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i');
+
 body {
   font-family: 'Cardo', sans-serif;
   overflow-x: hidden;
-  color: #33334d !important;
+  color: #2d2d2e !important;
 }
 
 .title {
@@ -15,7 +17,7 @@ body {
 
 .parrallax-img {
   background-position: relative;
-  opacity: 0.9;
+  opacity: 1.0;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,9 +70,9 @@ input {
 }
 
 #arrow {
-  font-size: 3rem;
-  color: black;
+  font-size: 2.5rem;
   text-decoration: none;
+  color: #2d2d2e;
 }
 
 .pagination,
