@@ -73,6 +73,28 @@ input {
   text-decoration: none;
 }
 
+.pagination,
+.pagination-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagination a {
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.2rem 0.8rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  background-color: purple;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: yellow;
+}
+
 
 @media (max-width: 950px) and (min-width: 750px) {
 
@@ -129,6 +151,10 @@ input {
 
   p {
     font-size: 0.6rem;
+  }
+
+  .pagination-title {
+    font-size: 0.8rem;
   }
 
   .footer-icons {
