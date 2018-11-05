@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo:400i');
-
 body {
-  font-family: 'Cardo', sans-serif;
+  font-family: 'Cardo', sans-serif !important;
   overflow-x: hidden;
   color: #2d2d2e !important;
 }
