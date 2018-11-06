@@ -1,5 +1,6 @@
 body {
-  font-family: 'Cardo', sans-serif !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
   overflow-x: hidden;
   color: #2d2d2e !important;
 }
@@ -33,6 +34,11 @@ body {
   border-radius: 15px;
 }
 
+.about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
 .my-pic {
   height: 100px !important;
   width: 100px !important;
@@ -43,9 +49,9 @@ body {
 
 .btn,
 .copyright,
-.new-poem,
-.about {
+.new-poem {
   font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -76,6 +82,8 @@ input {
 .pagination,
 .pagination-title {
   font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+
 }
 
 .pagination a {
@@ -111,7 +119,6 @@ input {
 @media (max-width:700px) {
 
   body {
-    font-family: 'Cardo', sans-serif !important;
     overflow-x: hidden !important;
   }
 
@@ -124,11 +131,6 @@ input {
     margin: 0px 0px 3px 10px !important;
     font-size: 0.8rem;
   }
-
-  /*
-  .fb-share-button {
-    margin-top: -3.2rem !important;
-  }  */
 
   .parrallax-img {
     display: none !important;
