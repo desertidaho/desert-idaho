@@ -16,8 +16,8 @@ body {
 }
 
 .parrallax-img {
-  opacity: 0.3;
-  background-color: rgb(40, 10, 10);
+  opacity: 0.2;
+  background-color: rgb(60, 1, 1);
   background-position: relative;
   background-position: 50% 40%;
   background-size: 30%;
@@ -147,7 +147,7 @@ input {
   }
 
   .about-box {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     margin: 5rem 1.1rem 0 1.0rem;
   }
 
