@@ -15,14 +15,15 @@ body {
   text-shadow: 1px 0.5px rgb(221, 218, 218);
 }
 
-
 .parrallax-img {
+  opacity: 0.4;
+  background-color: rgb(39, 2, 2);
   background-position: relative;
-  background-position: center;
-  background-size: 38%;
+  background-position: 50% 40%;
+  background-size: 30%;
   background-repeat: no-repeat;
   min-height: 100%;
-  height: 68vh;
+  height: 77vh;
   background-image: url(https://media.giphy.com/media/ctGFLebG1AqK4/giphy.gif);
   /*
     fixed = parallax
@@ -112,17 +113,11 @@ input {
   }
 
   .parrallax-img {
-    background-position: relative;
-    background-position: 50% 12%;
-    background-size: 58%;
-    background-repeat: no-repeat;
-    height: 40vh;
-    background-image: url(img/transparent-sun.png);
-    /*
-    fixed = parallax
-    scroll = normal
-  */
-    background-attachment: fixed;
+    display: none !important;
+  }
+
+  .about-box {
+    margin-top: 8vh;
   }
 
   h4 {
@@ -148,22 +143,12 @@ input {
   }
 
   .parrallax-img {
-    background-position: relative;
-    background-position: 50% 21%;
-    background-size: 78%;
-    background-repeat: no-repeat;
-    height: 40vh;
-    background-image: url(img/transparent-sun.png);
-    /*
-    fixed = parallax
-    scroll = normal
-  */
-    background-attachment: fixed;
+    display: none !important;
   }
 
   .about-box {
     font-size: 1.0rem;
-    margin: -1.1rem 1.1rem 0 1.0rem;
+    margin: 5rem 1.1rem 0 1.0rem;
   }
 
   .my-pic {
