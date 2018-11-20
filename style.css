@@ -113,11 +113,11 @@ input {
 
   .parrallax-img {
     background-position: relative;
-    background-position: 50% 23%;
+    background-position: 50% 12%;
     background-size: 58%;
     background-repeat: no-repeat;
-    height: 45vh;
-    background-image: url(https://media.giphy.com/media/ctGFLebG1AqK4/giphy.gif);
+    height: 40vh;
+    background-image: url(img/transparent-sun.png);
     /*
     fixed = parallax
     scroll = normal
@@ -149,11 +149,11 @@ input {
 
   .parrallax-img {
     background-position: relative;
-    background-position: 50% 23%;
+    background-position: 50% 21%;
     background-size: 78%;
     background-repeat: no-repeat;
-    height: 45vh;
-    background-image: url(https://media.giphy.com/media/ctGFLebG1AqK4/giphy.gif);
+    height: 40vh;
+    background-image: url(img/transparent-sun.png);
     /*
     fixed = parallax
     scroll = normal
