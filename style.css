@@ -16,8 +16,7 @@ body {
 }
 
 .parrallax-img {
-  opacity: 0.2;
-  background-color: rgb(60, 1, 1);
+  background-color: white;
   background-position: relative;
   background-position: 50% 40%;
   background-size: 30%;
