@@ -18,7 +18,7 @@ body {
 .parrallax-img {
   background-color: black;
   background-position: relative;
-  background-position: 50% 45%;
+  background-position: 50% 44%;
   background-size: 30%;
   background-repeat: no-repeat;
   min-height: 100%;
@@ -142,12 +142,18 @@ input {
   }
 
   .parrallax-img {
-    display: none !important;
+    background-color: black;
+    background-position: relative;
+    background-position: 50% 23%;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    height: 33vh;
   }
 
   .about-box {
     font-size: 1.1rem;
-    margin: 5rem 1.1rem 0 1.0rem;
+    margin: -0.8rem 1.1rem -1.0rem 1rem;
   }
 
   .my-pic {
