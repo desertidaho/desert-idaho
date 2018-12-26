@@ -32,9 +32,12 @@ body {
 }
 
 .about-box {
+  margin-top: -1rem;
   margin-left: 25vw !important;
   margin-right: 25vw !important;
   border-radius: 15px;
+  background-color: rgb(226, 226, 229);
+  border: 1px solid rgb(172, 170, 170);
 }
 
 .about {
@@ -45,11 +48,11 @@ body {
 
 .my-pic {
   height: 130px !important;
-  width: 80px !important;
+  width: 78px !important;
   float: right !important;
   margin: 1rem 0 1rem 1rem;
   border-radius: 10%;
-  border: 1px solid rgb(56, 56, 56);
+  border: 1px solid rgb(172, 170, 170);
 }
 
 .flex-container .book {
@@ -119,7 +122,7 @@ input {
   }
 
   .sub-title {
-    margin-top: 2.4rem !important;
+    margin-top: 3.3rem !important;
     font-size: 1.3rem;
   }
 
@@ -145,11 +148,11 @@ input {
 
   .title {
     font-size: 1.5rem;
-    margin: 25px 0px 0px 10px !important;
+    margin: 2.8rem 0px 0px 1rem !important;
   }
 
   .sub-title {
-    margin: 0px 0px 3px 10px !important;
+    margin: 0.5rem 0px 0px 1rem !important;
     font-size: 0.8rem;
   }
 
@@ -158,7 +161,7 @@ input {
   }
 
   .about-box {
-    margin-top: -1rem;
+    margin-top: -1rem !important;
     margin-left: 10vw !important;
     margin-right: 10vw !important;
     padding-left: 0.8rem !important;
