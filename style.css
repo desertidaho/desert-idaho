@@ -117,12 +117,18 @@ input {
 
 @media (max-width: 1030px) and (min-width: 701px) {
 
+  #top-title-subtitle {
+    background-color: white;
+  }
+
   .title {
+    color: black !important;
     font-size: 1.9rem;
     margin-top: 2.5rem !important;
   }
 
   .sub-title {
+    color: black !important;
     margin-top: 3.3rem !important;
     font-size: 1.3rem;
   }
@@ -147,12 +153,18 @@ input {
     overflow-x: hidden !important;
   }
 
+  #top-title-subtitle {
+    background-color: white;
+  }
+
   .title {
+    color: black !important;
     font-size: 1.5rem;
     margin: 2.8rem 0px 0px 1rem !important;
   }
 
   .sub-title {
+    color: black !important;
     margin: 0.5rem 0px 0px 1rem !important;
     font-size: 0.8rem;
   }
