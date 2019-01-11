@@ -141,11 +141,11 @@ input {
 
   .about-box {
     padding-left: 1.0rem !important;
-    margin-left: 8vw;
+    margin-left: 4vw;
   }
 
   .book {
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 0.7rem;
   }
 
   h4 {
@@ -189,7 +189,7 @@ input {
   }
 
   .book {
-    margin: 9vw 0 0 3rem;
+    margin: 9vw 0 0 0;
   }
 
   .amazon-btn {
