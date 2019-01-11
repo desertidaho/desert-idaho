@@ -34,31 +34,33 @@ body {
 }
 
 .about-box {
-  margin-top: -1rem;
-  margin-left: 25vw !important;
-  margin-right: 25vw !important;
-  border-radius: 15px;
-  border: 1px solid black;
+  border-radius: 5px;
+  border: 1px solid rgb(110, 110, 110);
 }
 
 .about {
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
-  font-size: 1.2rem;
+  font-size: large;
 }
+
 
 .my-pic {
   height: 130px !important;
   width: 78px !important;
   float: right !important;
-  margin: 1rem 0 1rem 1rem;
-  border-radius: 10%;
-  border: 1px solid black;
+  margin: 1rem 0 1rem 0;
+  border-radius: 50%;
+  border: 1px solid rgb(110, 110, 110);
 }
 
-.flex-container .book {
+.book {
   display: flex;
   justify-content: center;
+}
+
+.amazon-btn {
+  border: 0.4px solid rgb(110, 110, 110);
 }
 
 .btn,
@@ -115,7 +117,7 @@ input {
   background-color: yellow;
 }
 
-@media (max-width: 1030px) and (min-width: 701px) {
+@media (max-width: 1050px) and (min-width: 701px) {
 
   #top-title-subtitle {
     background-color: white;
@@ -139,6 +141,11 @@ input {
 
   .about-box {
     padding-left: 1.0rem !important;
+    margin-left: 8vw;
+  }
+
+  .book {
+    margin: 0 0 0 1rem;
   }
 
   h4 {
@@ -179,6 +186,14 @@ input {
     margin-right: 10vw !important;
     padding-left: 0.8rem !important;
     padding-right: 0.8rem !important;
+  }
+
+  .book {
+    margin: 8vw 0 0 4rem;
+  }
+
+  .amazon-btn {
+    font-size: 0.7rem;
   }
 
   .about {
