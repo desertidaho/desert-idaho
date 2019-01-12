@@ -17,6 +17,12 @@ body {
   font-size: 1.2rem;
 }
 
+#down-arrow {
+  font-size: 2rem;
+  text-decoration: none;
+  color: gray;
+}
+
 .parrallax-img {
   background-color: black;
   background-position: relative;
@@ -43,7 +49,6 @@ body {
   font-style: oblique;
   font-size: large;
 }
-
 
 .my-pic {
   height: 130px !important;
@@ -90,9 +95,9 @@ input {
 }
 
 #arrow {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-decoration: none;
-  color: #2d2d2e;
+  color: gray;
 }
 
 .pagination,
@@ -133,6 +138,10 @@ input {
     color: black !important;
     margin-top: 3.3rem !important;
     font-size: 1.3rem;
+  }
+
+  #down-arrow {
+    display: none;
   }
 
   .parrallax-img {
@@ -176,6 +185,10 @@ input {
     font-size: 0.8rem;
   }
 
+  #down-arrow {
+    display: none;
+  }
+
   .parrallax-img {
     display: none !important;
   }
@@ -211,6 +224,10 @@ input {
 
   .pagination-title {
     font-size: 0.8rem;
+  }
+
+  #arrow {
+    margin: 2rem 1rem 0 0 !important;
   }
 
   .footer-icons {
