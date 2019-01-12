@@ -23,6 +23,10 @@ body {
   color: gray;
 }
 
+.down {
+  margin-top: 30vh;
+}
+
 .parrallax-img {
   background-color: black;
   background-position: relative;
