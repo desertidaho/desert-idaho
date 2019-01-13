@@ -69,7 +69,8 @@ body {
 }
 
 .amazon-btn {
-  border: 0.4px solid rgb(110, 110, 110);
+  color: black;
+  border: 1px solid rgb(110, 110, 110);
 }
 
 .btn,
