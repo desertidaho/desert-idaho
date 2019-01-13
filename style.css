@@ -108,7 +108,8 @@ input {
 .pagination,
 .pagination-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  font-style: oblique;
+  font-size: large;
 }
 
 .pagination a {
