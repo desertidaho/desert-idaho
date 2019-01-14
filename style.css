@@ -54,15 +54,6 @@ body {
   font-size: large;
 }
 
-.my-pic {
-  height: 130px !important;
-  width: 78px !important;
-  float: right !important;
-  margin: 1rem 0 1rem 0;
-  border-radius: 50%;
-  border: 1px solid rgb(110, 110, 110);
-}
-
 .book {
   display: flex;
   justify-content: center;
@@ -93,6 +84,10 @@ input {
   width: 76% !important;
   min-width: 76% !important;
   margin-top: 0.3rem;
+}
+
+.maria_flores {
+  font-size: small !important;
 }
 
 .footer-icons {
@@ -226,6 +221,10 @@ input {
 
   p {
     font-size: 0.6rem;
+  }
+
+  .maria_flores {
+    font-size: 0.5rem !important;
   }
 
   .pagination-title {
