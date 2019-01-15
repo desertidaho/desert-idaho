@@ -11,6 +11,12 @@ body {
 
 .title {
   font-weight: 500;
+  color: white;
+}
+
+.title:hover {
+  text-decoration: none;
+  color: gray;
 }
 
 .sub-title {
