@@ -3,7 +3,6 @@ body {
   font-style: oblique;
   overflow-x: hidden;
   color: #2d2d2e !important;
-  margin-top: -3.5vh;
 }
 
 #top-title-subtitle {
@@ -28,7 +27,6 @@ body {
   font-size: 2rem;
   text-decoration: none;
   color: gray;
-  margin-left: 11vw;
 }
 
 .down {
@@ -43,7 +41,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100%;
   height: 90vh;
-  background-image: url(../img/transparent-sun.png);
+  background-image: url(img/transparent-sun.png);
   /*
     fixed = parallax
     scroll = normal
@@ -52,9 +50,8 @@ body {
 }
 
 .about-box {
-  border-radius: 2px;
+  border-radius: 5px;
   border: 1px solid rgb(110, 110, 110);
-  background-color: black;
 }
 
 .about {
@@ -70,18 +67,7 @@ body {
 
 .amazon-btn {
   color: black;
-  padding: 0.65vh 1.1vw 0.65vh 1.1vw !important;
-  font-size: 1.02rem;
-}
 
-.book-buttons {
-  margin-top: 5.3vh;
-}
-
-.main-amazon-btn,
-.main-btc-btn {
-  padding-left: 1vw !important;
-  padding-right: 1vw !important;
 }
 
 .btn,
@@ -93,11 +79,7 @@ body {
 }
 
 .card-columns {
-  column-count: 5;
-}
-
-.card {
-  cursor: pointer;
+  column-count: 4;
 }
 
 h5 {
@@ -110,8 +92,8 @@ input {
   margin-top: 0.3rem;
 }
 
-#first-raindrops {
-  font-size: 0.8rem !important;
+.maria_flores {
+  font-size: small !important;
 }
 
 .footer-icons {
@@ -129,7 +111,6 @@ input {
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
   font-size: large;
-  margin-right: 2vw !important;
 }
 
 .pagination a {
@@ -146,16 +127,6 @@ input {
 
 .pagination a:hover:not(.active) {
   background-color: yellow;
-}
-
-.padding2 {
-  margin-left: -1vw !important;
-}
-
-footer {
-  background-color: black;
-  min-width: 100vw !important;
-  margin-left: -2vw;
 }
 
 @media (max-width: 1050px) and (min-width: 701px) {
@@ -193,10 +164,6 @@ footer {
     margin: 0 0 0 0.7rem;
   }
 
-  .card {
-  cursor: none;
-  }
-
   h4 {
     font-size: 1.0rem;
   }
@@ -216,11 +183,12 @@ footer {
   .title {
     color: black !important;
     font-size: 1.5rem;
-    margin-top: 2rem !important;
+    margin: 2.8rem 0px 0px 1rem !important;
   }
 
   .sub-title {
     color: black !important;
+    margin: 0.5rem 0px 0px 1rem !important;
     font-size: 0.8rem;
   }
 
@@ -233,7 +201,7 @@ footer {
   }
 
   .about-box {
-    margin-top: -3rem !important;
+    margin-top: -1rem !important;
     margin-left: 10vw !important;
     margin-right: 10vw !important;
     padding-left: 0.8rem !important;
@@ -241,29 +209,12 @@ footer {
   }
 
   .book {
-    margin: 9vw 0 0 10vw;
-  }
-
-  .page2-book {
-    margin-top: -5vh !important;
+    margin: 9vw 0 0 0;
   }
 
   .amazon-btn {
-    padding: 0.65vh 4.6vw 0.65vh 4.6vw !important;
-  }
+    font-size: 1rem;
 
-  .fa-amazon {
-    margin-top: 1vh !important;
-    margin-left: 1.5vw !important;
-  }
-
-  .main-btc-btn {
-    padding-left: 4.5vw !important;
-    padding-right: 4.5vw !important;
-  }
-
-  .book-buttons {
-    margin-top: 2vh;
   }
 
   .about {
@@ -272,14 +223,6 @@ footer {
 
   .card-columns {
     column-count: 1;
-  }
-
-  .modal {
-    max-width: 95vw !important;
-  }
-
-  .card {
-  cursor: none;
   }
 
   p {
@@ -300,11 +243,6 @@ footer {
 
   .footer-icons {
     size: 20% !important;
-  }
-
-  footer {
-    min-width: 100vw;
-    margin-left: -4vw;
   }
 
 }
