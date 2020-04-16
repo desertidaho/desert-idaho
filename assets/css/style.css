@@ -193,6 +193,10 @@ footer {
     margin: 0 0 0 0.7rem;
   }
 
+  .card {
+  cursor: none;
+  }
+
   h4 {
     font-size: 1.0rem;
   }
@@ -269,6 +273,10 @@ footer {
   .card-columns {
     column-count: 1;
   }
+
+  .card {
+  cursor: none;
+}
 
   p {
     font-size: 0.6rem;
