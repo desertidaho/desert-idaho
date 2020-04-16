@@ -271,12 +271,16 @@ footer {
   }
 
   .card-columns {
-    column-count: 2;
+    column-count: 1;
+  }
+
+  .modal {
+    max-width: 95vw !important;
   }
 
   .card {
   cursor: none;
-}
+  }
 
   p {
     font-size: 0.6rem;
