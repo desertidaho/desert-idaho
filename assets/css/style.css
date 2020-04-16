@@ -75,7 +75,13 @@ body {
 }
 
 .book-buttons {
-  margin-top: 9vh;
+  margin-top: 5.3vh;
+}
+
+.main-amazon-btn,
+.main-btc-btn {
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
 }
 
 .btn,
