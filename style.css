@@ -63,12 +63,15 @@ body {
 
 .book {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .amazon-btn {
   color: black;
+}
 
+.book-buttons {
+  margin-top: 9vh;
 }
 
 .btn,
@@ -205,21 +208,35 @@ input {
     margin-top: -1rem !important;
     margin-left: 10vw !important;
     margin-right: 10vw !important;
+    margin-bottom: 6vh !important;
     padding-left: 0.8rem !important;
     padding-right: 0.8rem !important;
   }
 
-  .book {
-    margin: 9vw 0 0 0;
+  .book-div {
+    margin-left: 12vw !important;
   }
 
-  .amazon-btn {
-    font-size: 1rem;
-
+  .book {
+    margin-top: 0vh;
+    margin-left: -0.1vw;
   }
 
   .about {
     font-size: 0.9rem !important;
+  }
+
+  .book {
+  display: flex;
+  justify-content: center;
+  }
+
+  .amazon-btn {
+  color: black;
+  }
+
+  .book-buttons {
+  margin-top: 9vh;
   }
 
   .card-columns {
